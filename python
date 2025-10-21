@@ -1,0 +1,19 @@
+# Use a dictionary to store key information about the village
+bhader_village_data = {
+    "Village Name": "Bhader",
+    "State": "Gujarat",
+    "District": "Amreli",
+    "Taluka": "Dhari",
+    "Population (2011 Census)": 3924,
+    "Pincode": "365645",
+    "Area (Hectares)": 2633.69
+}
+
+print("=== 🇮🇳 Bhader Village Data (Amreli) ===")
+
+# Iterate over the dictionary and print each detail
+for key, value in bhader_village_data.items():
+    # Use f-string alignment for clean output
+    print(f"{key:<30}: {value}")
+
+print("=======================================")
